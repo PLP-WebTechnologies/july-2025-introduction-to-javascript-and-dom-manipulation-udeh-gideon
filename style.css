@@ -1,0 +1,139 @@
+/* General Reset & Typography */
+   
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #f9fafc;
+  color: #333;
+  padding: 20px;
+}
+
+/* Layout Styling */
+   
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Section Styling */
+   
+section {
+  background: #ffffff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  max-width: 900px;
+  transition: transform 0.2s ease-in-out;
+}
+
+section:hover {
+  transform: translateY(-3px);
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #34495e;
+}
+
+section p, section pre, section ul {
+  margin-bottom: 15px;
+}
+
+/* Buttons Styling */
+   
+button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #3498db;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin: 5px 0;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* Inputs Styling */
+   
+input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Dynamic Output Areas Styling */
+   
+.output {
+  background: #ecf0f1;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 0.95rem;
+  color: #2c3e50;
+  min-height: 40px;
+}
+   
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+}
+
+/* Responsive Design */
+   
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  section {
+    padding: 15px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  section h2 {
+    font-size: 1.5rem;
+  }
+}
